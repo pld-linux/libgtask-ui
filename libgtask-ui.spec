@@ -33,6 +33,10 @@ Summary:	Header files for libgtask-ui library
 Summary(pl):	Pliki nag³ówkowe biblioteki libgtask-ui
 Group:		Development/Libraries
 Requires:	%{name} = %{version}
+Requires:	GConf2-devel >= 2.4.0
+Requires:	gtk+2-devel >= 2.3.0
+Requires:	libgnomeui-devel >= 2.4.0
+Requires:	libgtask-devel >= 0.1
 
 %description devel
 Header files for libgtask-ui library.
