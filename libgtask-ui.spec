@@ -11,7 +11,7 @@ URL:		http://gtask.sourceforge.net/
 BuildRequires:	GConf2-devel >= 2.4.0
 BuildRequires:	eel-devel >= 2.4.0
 BuildRequires:	gnome-vfs2-devel >= 2.4.0
-BuildRequires:	gtk+2-devel >= 2.3.0
+BuildRequires:	gtk+2-devel >= 2:2.3.0
 BuildRequires:	libgnomeui-devel >= 2.4.0
 BuildRequires:	libgtask-devel >= 0.1
 BuildRequires:	libxml2-devel >= 2.5.0
