@@ -32,7 +32,7 @@ s³u¿±cej do komunikacji procesów z d³ugo wykonywanymi zadaniami.
 Summary:	Header files for libgtask-ui library
 Summary(pl):	Pliki nag³ówkowe biblioteki libgtask-ui
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 Requires:	GConf2-devel >= 2.4.0
 Requires:	gtk+2-devel >= 2.3.0
 Requires:	libgnomeui-devel >= 2.4.0
@@ -48,7 +48,7 @@ Pliki nag³ówkowe biblioteki libgtask-ui.
 Summary:	Static libgtask-ui library
 Summary(pl):	Statyczna biblioteka libgtask-ui
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static libgtask-ui library.
