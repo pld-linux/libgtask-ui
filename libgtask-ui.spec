@@ -1,5 +1,5 @@
 Summary:	Implementation of the progress bar simplification system
-Summary(pl):	Implementacja systemu upraszczania paska postÍpu
+Summary(pl.UTF-8):   Implementacja systemu upraszczania paska postƒôpu
 Name:		libgtask-ui
 Version:	0.1
 Release:	1
@@ -23,14 +23,14 @@ The intent of the project is to create an easy to use framework for
 application developers to communication the progress to certain long
 running events.
 
-%description -l pl
-gTask jest implementacj± systemu upraszczania paska postÍpu.
-Za≥oøeniem projektu jest stworzenie ≥atwej w uøyciu biblioteki
-s≥uø±cej do komunikacji procesÛw z d≥ugo wykonywanymi zadaniami.
+%description -l pl.UTF-8
+gTask jest implementacjƒÖ systemu upraszczania paska postƒôpu.
+Za≈Ço≈ºeniem projektu jest stworzenie ≈Çatwej w u≈ºyciu biblioteki
+s≈Çu≈ºƒÖcej do komunikacji proces√≥w z d≈Çugo wykonywanymi zadaniami.
 
 %package devel
 Summary:	Header files for libgtask-ui library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki libgtask-ui
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki libgtask-ui
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	GConf2-devel >= 2.4.0
@@ -41,19 +41,19 @@ Requires:	libgtask-devel >= 0.1
 %description devel
 Header files for libgtask-ui library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki libgtask-ui.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki libgtask-ui.
 
 %package static
 Summary:	Static libgtask-ui library
-Summary(pl):	Statyczna biblioteka libgtask-ui
+Summary(pl.UTF-8):   Statyczna biblioteka libgtask-ui
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static libgtask-ui library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka libgtask-ui.
 
 %prep
