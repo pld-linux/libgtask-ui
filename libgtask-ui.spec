@@ -1,5 +1,5 @@
 Summary:	Implementation of the progress bar simplification system
-Summary(pl.UTF-8):   Implementacja systemu upraszczania paska postępu
+Summary(pl.UTF-8):	Implementacja systemu upraszczania paska postępu
 Name:		libgtask-ui
 Version:	0.1
 Release:	1
@@ -30,7 +30,7 @@ służącej do komunikacji procesów z długo wykonywanymi zadaniami.
 
 %package devel
 Summary:	Header files for libgtask-ui library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki libgtask-ui
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libgtask-ui
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	GConf2-devel >= 2.4.0
@@ -46,7 +46,7 @@ Pliki nagłówkowe biblioteki libgtask-ui.
 
 %package static
 Summary:	Static libgtask-ui library
-Summary(pl.UTF-8):   Statyczna biblioteka libgtask-ui
+Summary(pl.UTF-8):	Statyczna biblioteka libgtask-ui
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
